@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Administrar Usuarios</title>
+</head>
+<body>
+    <h1>Administrar Usuarios</h1>
+
+    <!-- Agregar Usuario -->
+    <h2>Agregar Usuario</h2>
+    <form action="agregar_usuario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" required>
+        <label for="email">Contaseña:</label>
+        <input type="text" name="email" required>
+        <input type="submit" value="Agregar Usuario">
+    </form>
+
+    <!-- Modificar Usuario -->
+    <h2>Modificar Usuario</h2>
+    <form action="modificar_usuario.php" method="POST">
+        <label for="id_modificar">ID del Usuario a Modificar:</label>
+        <input type="text" name="id_modificar" required>
+        <label for="nuevo_nombre">Nuevo Nombre:</label>
+        <input type="text" name="nuevo_nombre" required>
+        <label for="nuevo_email">Nueva Contraseña:</label>
+        <input type="text" name="nuevo_email" required>
+        <input type="submit" value="Modificar Usuario">
+    </form>
+
+    <!-- Eliminar Usuario -->
+    <h2>Eliminar Usuario</h2>
+    <form action="eliminar_usuario.php" method="POST">
+        <label for="id_eliminar">ID del Usuario a Eliminar:</label>
+        <input type="text" name="id_eliminar" required>
+        <input type="submit" value="Eliminar Usuario">
+    </form>
+</body>
+</html>

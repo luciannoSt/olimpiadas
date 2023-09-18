@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:  system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: #26cad6;  
+    background: -webkit-linear-gradient(to right, hsla(246, 67%, 40%, 0.548), hsla(212, 57%, 36%, 0.664)),url(../imagens/portada.jpg);  
+     background: linear-gradient(to right, hsla(340, 71%, 41%, 0.548), hsla(207, 58%, 32%, 0.664)),url(../imagens/portada.jpg);
+     background-size: cover;
+     background-attachment: fixed;
+     position: relative;
+    }
+    nav{
+        text-align: right;
+        padding: 30px 50px 0 0;
+    
+    }
+    nav > a{
+        color:#fff;
+        font-weight: 300;
+        text-decoration: none;
+        margin-right: 10px;
+    }
+    nav > a:hover{
+        text-decoration: underline;
+    }
+    header .texto-header{
+        display: flex;
+        height: 430px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .texto-header h1{
+        font-size: 50px;
+        color: #fff;
+    }
+    .texto-header h2{
+        font-size: 30px;
+        font-weight: 300;
+        color:#fff;
+    }
+    .wave{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+
+    }
+    /* About us*/
+
+    .contenedor-sobre-nosotros{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .imagen-about-us{
+        width: 48%;
+
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 48%;
+    }
+    .contenido-textos h3{
+        margin-bottom: 15px;
+
+
+    }
+    .contenido-textos h3 span{
+        background: #4d0686;
+        color: #fff;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+        box-shadow: 0 0 6px 0 rgb(0, 0, .5);
+        margin-right: 5px;
+    }
+    .contenido-textos p{
+        padding: 0px 0px 30px 15px;
+        font-weight: 300;
+        text-align: justify;
+    }
+    
+     /*ourd team */
+
+
+    .about-services{
+        background: #f2f2f2;
+        padding-bottom: 30px;
+    }
+
+    .servicio-cont{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .servicio-ind{
+        width: 28%;
+        text-align: center;
+
+    }
+
+    .servicio-ind img{
+        width: 90%;
+
+    }
+
+    .servicio-ind h3{
+        margin: 10px 0;
+    }
+    .servicio-ind p{
+        font-weight: 300;
+        text-align: justify;
+    }
+
+
+    footer{
+        background: #414141;
+        padding: 60px 0 30px 0;
+        margin: auto;
+        overflow: hidden;
+    }
+
+
+    .contenedor-footer{
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        margin: auto;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .content-foo{
+        text-align: center;
+    }
+    .content-foo h4{
+        color: #fff;
+        border-bottom: 3px solid #af20d3;
+        padding-bottom: 5px ;
+        margin-bottom: 10px;
+    }
+    .content-foo p{
+        color: #ccc;
+    }
+
+    .titulo-final{
+        text-align: center;
+        font-size: 24px;
+        margin: 20px 0 0 0;
+        color: #9e9797;
+    }
+
